@@ -1,17 +1,4 @@
 # Helm Example Repository
 
-Ahoy world!  I'm a Helm repository for example charts.
-
-## Get started
-
-Add this repository to Helm.
-
-```
-helm repo add examples https://helm.github.io/examples
-```
-
-Install an example.
-
-```
-helm install ahoy examples/hello-world
-```
+In Order to access from localhost:8000 
+kubectl port-forward svc/<service-name> 8000:8000 
